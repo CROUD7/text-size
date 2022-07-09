@@ -1,0 +1,12 @@
+{
+  "name": "大文字化",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Scratch内の文字を大文字化します",
+  "content_scripts": [{
+    "matches": ["https://scratch.mit.edu/*"],
+    "css": [
+      "content.css"
+    ]
+  }]
+}
